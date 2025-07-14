@@ -14,4 +14,5 @@ class BankAccount:
         return False  # Not enough money
 
     def display_balance(self):
-        print(f"Current Balance: ${self.__account_balance}")  # Show balance
+        print(f"Current Balance: ${self.__account_balance:.2f}")
+  # Show balance
